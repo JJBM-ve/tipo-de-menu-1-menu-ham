@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=diviece-width, initial=scale=1.0">
+		<title>Nav Menu</title>
+		<link rel="stylesheet" href="estilos.css"/>
+	</head>
+	<body> 
+		<div class="nav">  
+			<div class="nav_container">  
+				<div class="nav_logo">
+					<img src="./assets/LOGO-1.png" alt="" class="img_logo">
+				</div>
+		
+				<label for="menu" class="nav_label">
+					<img src="./assets/menu.svg" alt="" class="nav_img">			
+				</label>
+
+				<input type="checkbox" id="menu" class="nav_input">
+
+				<nav class="menu">  <!-- dropdown // contenedor total--> 
+                    <!-- dropdown-content // elementos horizontales del nav bar--> 
+						<div class="menu_hor">
+										<!-- este es un elemento --> 
+							<div class="nav_item">
+								<a href="#" >Inicio</a>
+							</div> 
+
+										<!-- este es un elemento --> 
+							<div class="nav_item">
+
+								<a href="#" >Cursos</a> 	<!-- dropdown-content-vertical --> 
+
+								<div class="menu_ver">				<!-- este es un subelemento --> 
+
+									<div class="nav_ver">	
+												                            <!-- estos son los elementos --> 
+										<a href="#" class="nav_ver_list">html</a>
+									</div>
+
+									<div class="nav_ver">
+
+										<a href="#" class="nav_ver_list">css</a>
+									</div>
+
+									<div class="nav_ver">
+
+										<a href="#" class="nav_ver_list">javascript</a>
+									</div>	
+								</div>
+							</div>
+
+							<div class="nav_item">
+
+								<a href="#" >Inscripcion</a>
+								
+								<div class="menu_ver">			<!-- este es un subelemento --> 
+
+									<div class="nav_ver">				<!-- estos son los elementos --> 
+										<a href="#" class="nav_ver_list">mensual</a>
+									</div>
+
+									<div class="nav_ver">
+										<a href="#" class="nav_ver_list">anual</a>
+									</div>
+
+									<div class="nav_ver">
+										<a href="#" class="nav_ver_list">mentoria</a>
+									</div>	
+								</div>
+							</div>
+							<div class="nav_item">
+
+								<a href="#" >Contacto</a>
+							</div>
+						</div>				
+				</nav>
+			</div>
+		</div>
+	</body>
+</html>
